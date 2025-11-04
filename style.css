@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  text-align: center;
+}
+
+.topo {
+  padding: -20%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(249, 188, 225, 0.949);
+  
+}
+
+.h1 {
+  color:rgba(249, 188, 225, 0.949);
+}
+ 
+/* TOPO FIXO */
+.top-bar {
+  position: fixed;
+  top: 8.5px;
+  left: 0%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 40px;
+  z-index: 10;
+}
+
+.top-left {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  width: 150px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+  /* Texto sobre a imagem */
+  .texto-sobre {
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente */
+    left: 7.3%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta para centralização perfeita */
+    color: white; /* Cor do texto */
+    font-size: 15.8px;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px rgba(158, 7, 93, 0.7); /* Sombra para melhor contraste */
+    z-index: 1; /* Garante que o texto fique acima da imagem */
+    cursor: pointer;
+    transition: transform 15.0s ease;
+}
+.texto-sobre:hover {
+  transform: scale(0.1);
+}
+
+.texto1 {
+  color: rgba(255, 105, 205, 0.904);
+}
+
+
+  .texto-sobre1 {
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente */
+    left: 17.7%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta para centralização perfeita */
+    color: white; /* Cor do texto */
+    font-size: 15.4px;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px rgba(158, 7, 93, 0.7); /* Sombra para melhor contraste */
+    z-index: 1; /* Garante que o texto fique acima da imagem */
+     cursor: pointer;
+    transition: transform 15.0s ease;
+}
+.texto-sobre1:hover {
+  transform: scale(0.1);
+}
+  
+  .texto-sobre2 {
+    position: absolute;
+    top: 28%; /* Centraliza verticalmente */
+    left: 28.5%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta para centralização perfeita */
+    color: white; /* Cor do texto */
+    font-size: 27.4px;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px rgba(47, 3, 65, 0.7); /* Sombra para melhor contraste */
+    z-index: 1; /* Garante que o texto fique acima da imagem */
+     cursor: pointer;
+    transition: transform 15.0s ease;
+}
+.texto-sobre2:hover {
+  transform: scale(0.1);
+}
+  
+ .texto-sobre3 {
+    position: absolute;
+    top: 28.5%; /* Centraliza verticalmente */
+    left: 73.8%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta para centralização perfeita */
+    color: white; /* Cor do texto */
+    font-size: 27.4px;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px rgba(2, 22, 72, 0.7); /* Sombra para melhor contraste */
+    z-index: 1; /* Garante que o texto fique acima da imagem */
+     cursor: pointer;
+    transition: transform 15.0s ease;
+}
+.texto-sobre3:hover {
+  transform: scale(0.1);
+}
+.texto-sobre4 {
+    position: absolute;
+    top: 77.6%; /* Centraliza verticalmente */
+    left: 50.5%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta para centralização perfeita */
+    color: white; /* Cor do texto */
+    font-size: 27.4px;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px rgba(85, 4, 48, 0.7); /* Sombra para melhor contraste */
+    z-index: 1; /* Garante que o texto fique acima da imagem */
+     cursor: pointer;
+    transition: transform 15.0s ease;
+}
+.texto-sobre4:hover {
+  transform: scale(0.1);
+}
+  
+ 
+ 
+/* TÍTULO MAIOR E FIXO ABAIXO DO MENU */
+.title-container {
+   position: fixed;
+  top: 50px; /* agora acima dos botões */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+
+.title {
+  width: 895px;
+  transform: scale(1.2); 
+}
+
+/* BOTÕES PRINCIPAIS FIXOS ABAIXO DO TÍTULO */
+.main-buttons {
+  position: fixed;
+  top: 370px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 19px;
+  z-index: 5;
+
+}
+
+/* BOTÃO ESCOLHER FASE */
+.botao-escolher-fase {
+  width: 340px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.botao-escolher-fase:hover {
+  transform: scale(1.1);
+}
+
+/* BOTÃO INICIAR */
+.botao-iniciar {
+  width: 340px;
+  height: 155px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.botao-iniciar:hover {
+  transform: scale(1.1);
+}
+
+.botao-escolher-fase2 {
+
+  width: 330px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.botao-escolher-fase2:hover {
+  transform: scale(1.1);
+}
+
+/* BOTÃO TUTORIAL */
+.botao-tutorial {
+  width: 150px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.botao-tutorial:hover {
+  transform: scale(1.1);
+}
+ a {
+        color: inherit; /* herda a cor do elemento pai */
+        text-decoration: none; /* remove o sublinhado */
+    }
+
+    /* Garante que mesmo visitado ou ativo não mude */
+    a:visited,
+    a:hover,
+    a:active {
+        color: inherit;
+        text-decoration: none;
+    }
+  
+
+
+
+
