@@ -21,7 +21,7 @@ body {
   color:rgba(249, 188, 225, 0.949);
 }
  
-/* TOPO FIXO */
+
 .top-bar {
   position: fixed;
   top: 8.5px;
@@ -48,7 +48,7 @@ body {
   transform: scale(1.1);
 }
 
-  /* Texto sobre a imagem */
+  
   .texto-sobre {
     position: absolute;
     top: 50%; /* Centraliza verticalmente */
@@ -140,7 +140,7 @@ body {
   
  
  
-/* TÍTULO MAIOR E FIXO ABAIXO DO MENU */
+
 .title-container {
    position: fixed;
   top: 50px; /* agora acima dos botões */
@@ -154,7 +154,7 @@ body {
   transform: scale(1.2); 
 }
 
-/* BOTÕES PRINCIPAIS FIXOS ABAIXO DO TÍTULO */
+
 .main-buttons {
   position: fixed;
   top: 370px;
@@ -166,7 +166,7 @@ body {
 
 }
 
-/* BOTÃO ESCOLHER FASE */
+
 .botao-escolher-fase {
   width: 340px;
   height: auto;
@@ -177,7 +177,7 @@ body {
   transform: scale(1.1);
 }
 
-/* BOTÃO INICIAR */
+
 .botao-iniciar {
   width: 340px;
   height: 155px;
@@ -199,7 +199,7 @@ body {
   transform: scale(1.1);
 }
 
-/* BOTÃO TUTORIAL */
+
 .botao-tutorial {
   width: 150px;
   height: auto;
@@ -214,7 +214,7 @@ body {
         text-decoration: none; /* remove o sublinhado */
     }
 
-    /* Garante que mesmo visitado ou ativo não mude */
+  
     a:visited,
     a:hover,
     a:active {
@@ -222,6 +222,7 @@ body {
         text-decoration: none;
     }
   
+
 
 
 
