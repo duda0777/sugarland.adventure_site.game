@@ -13,12 +13,13 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: rgba(249, 188, 225, 0.949);
+  background-color:  rgba(243, 161, 231, 0.949);
   
 }
 
 .h1 {
-  color:rgba(249, 188, 225, 0.949);
+  color: rgba(243, 161, 231, 0.949);
+  
 }
 .navbar {
   background-color: #e879d9;
@@ -274,6 +275,7 @@ body {
         color: inherit;
         text-decoration: none;
     }
+
 
 
 
