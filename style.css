@@ -277,45 +277,15 @@ body {
     }
 
 @media (max-width: 768px) {
-  .title {
-    width: 90%;
-    transform: scale(1);
+  body {
+    text-align: center;
+    overflow-x: hidden;
   }
 
-  .main-buttons {
-    flex-direction: column;
-    top: auto;
-    bottom: 40px;
-    gap: 10px;
-  }
-
-  .botao-iniciar,
-  .botao-escolher-fase,
-  .botao-escolher-fase2 {
-    width: 90%;
-  }
-
-  .texto-sobre,
-  .texto-sobre1,
-  .texto-sobre2,
-  .texto-sobre3,
-  .texto-sobre4 {
-    font-size: 14px;
-    top: auto;
-    left: 50%;
-    transform: translateX(-50%);
-    position: relative;
-    margin: 10px 0;
-  }
-
-  .top-bar {
+  .topo {
+    padding: 20px;
     flex-direction: column;
     align-items: center;
-    padding-left: 0;
-  }
-
-  .icon {
-    width: 100px;
   }
 
   .menu {
@@ -325,27 +295,66 @@ body {
 
   .menu a {
     padding: 10px;
-  }
-}
-
-
-@media (max-width: 480px) {
-  .title {
-    width: 100%;
-    transform: scale(0.9);
+    font-size: 14px;
   }
 
-  .botao-tutorial {
+  .top-bar {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .top-left {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon {
     width: 100px;
   }
 
+  .title-container {
+    position: static;
+    transform: none;
+    margin: 20px auto;
+    width: 90%;
+  }
+
+  .title {
+    width: 100%;
+    transform: scale(1);
+  }
+
+  .main-buttons {
+    position: static;
+    transform: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 20px auto;
+    width: 90%;
+  }
+
+  .botao-iniciar,
+  .botao-escolher-fase,
+  .botao-escolher-fase2,
+  .botao-tutorial {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .texto-sobre,
+  .texto-sobre1,
   .texto-sobre2,
   .texto-sobre3,
   .texto-sobre4 {
-    font-size: 18px;
+    position: static;
+    transform: none;
+    font-size: 16px;
+    margin: 10px auto;
+    text-align: center;
   }
 }
-
 
 
 
