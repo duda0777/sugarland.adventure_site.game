@@ -105,8 +105,8 @@ body {
     position: absolute;
     top: 50%; 
     left: 7.3%; 
-    transform: translate(-50%, -50%);
-    color: white;
+    transform: translate(-50%, -50%); 
+    color: white; 
     font-size: 15.8px;
     font-weight: bold;
     text-shadow: 4px 4px 4px rgba(158, 7, 93, 0.7); 
@@ -144,7 +144,7 @@ body {
     position: absolute;
     top: 28%; 
     left: 28.5%; 
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
     color: white; 
     font-size: 27.4px;
     font-weight: bold;
@@ -190,7 +190,6 @@ body {
   transform: scale(0.1);
 }
   
- 
  
 .title-container {
    position: fixed;
@@ -261,19 +260,17 @@ body {
   transform: scale(1.1);
 }
  a {
-        color: inherit;
+        color: inherit; 
         text-decoration: none; 
     }
 
-   
+  
     a:visited,
     a:hover,
     a:active {
         color: inherit;
         text-decoration: none;
     }
-  
-
 
 
 
