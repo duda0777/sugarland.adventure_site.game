@@ -348,7 +348,7 @@ body {
 
 @media (max-width: 768px) {
   .title {
-    width: 90%;
+    width: 890%;
     transform: scale(1);
   }
 
@@ -406,6 +406,7 @@ body {
   transform: scale(1.05);
   transition: transform 0.3s ease;
 }
+
 
 
 
