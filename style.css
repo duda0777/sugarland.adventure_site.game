@@ -276,62 +276,22 @@ body {
         text-decoration: none;
     }
 
+/* 🔄 Corrige repetição e alinhamento dos botões */
+.main-buttons {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+/* 🧼 Remove duplicação visual em telas pequenas */
 @media (max-width: 768px) {
-  body {
-    text-align: center;
-    overflow-x: hidden;
-  }
-
-  .topo {
-    padding: 20px;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .menu {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .menu a {
-    padding: 10px;
-    font-size: 14px;
-  }
-
-  .top-bar {
-    flex-direction: column;
-    align-items: center;
-    padding-left: 0;
-  }
-
-  .top-left {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .icon {
-    width: 100px;
-  }
-
-  .title-container {
-    position: static;
-    transform: none;
-    margin: 20px auto;
-    width: 90%;
-  }
-
-  .title {
-    width: 100%;
-    transform: scale(1);
-  }
-
   .main-buttons {
-    position: static;
-    transform: none;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
-    margin: 20px auto;
+    gap: 15px;
     width: 90%;
   }
 
@@ -344,43 +304,25 @@ body {
     height: auto;
   }
 
+  .title {
+    width: 90%;
+    transform: scale(1);
+  }
+
+  .title-container {
+    margin-top: 40px;
+  }
+
   .texto-sobre,
   .texto-sobre1,
   .texto-sobre2,
   .texto-sobre3,
   .texto-sobre4 {
-    position: static;
-    transform: none;
     font-size: 16px;
     margin: 10px auto;
     text-align: center;
-    max-width: 90%;
-  }
-}
-
-@media (max-width: 1024px) {
-  .title {
-    transform: scale(1);
-    width: 90%;
-  }
-
-  .main-buttons {
-    flex-direction: column;
-    gap: 15px;
-    align-items: center;
-  }
-
-  .botao-iniciar {
-    height: auto;
-  }
-
-  .texto-sobre,
-  .texto-sobre1,
-  .texto-sobre2,
-  .texto-sobre3,
-  .texto-sobre4 {
-    font-size: 18px;
-    text-align: center;
+    position: static;
+    transform: none;
   }
 }
 
