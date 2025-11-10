@@ -278,122 +278,36 @@ body {
     }
   
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
-
-@media (max-width: 480px) {
-  .title {
-    width: 380%;
-    transform: scale(1);
-  }
-
-  .main-buttons {
-    flex-direction: column;
-    align-items: center;
-    top: auto;
-    bottom: 20px;
-    gap: 12px;
-    padding: 0 10px;
-  }
-
-  .botao-iniciar,
-  .botao-escolher-fase,
-  .botao-escolher-fase2 {
-    width: 100%;
-    max-width: 320px;
-  }
-
-  .texto-sobre,
-  .texto-sobre1,
-  .texto-sobre2,
-  .texto-sobre3,
-  .texto-sobre4 {
-    position: relative;
-    top: auto;
-    left: auto;
-    transform: none;
-    font-size: 14px;
-    margin: 10px auto;
-    text-align: center;
-  }
-
-  .top-bar {
-    flex-direction: column;
-    align-items: center;
-    padding-left: 0;
-  }
-
-  .icon {
-    width: 80px;
-  }
-
-  .menu {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .menu a {
-    padding: 10px;
-    font-size: 14px;
-  }
-}
-
-
-
 @media (max-width: 768px) {
-  .texto-sobre,
-  .texto-sobre1,
-  .texto-sobre2,
-  .texto-sobre3,
-  .texto-sobre4 {
-    position: relative;
-    top: auto;
-    left: auto;
-    transform: none;
-    font-size: 14px;
-    margin: 10px auto;
-    text-align: center;
-    width: 90%;
-  }
-
-  .title-container {
-    position: relative;
-    top: auto;
-    left: auto;
-    transform: none;
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
-  }
-
   .title {
     width: 90%;
     transform: scale(1);
   }
 
   .main-buttons {
-    position: relative;
-    top: auto;
-    left: auto;
-    transform: none;
     flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    margin-top: 20px;
+    top: auto;
+    bottom: 40px;
+    gap: 10px;
   }
 
   .botao-iniciar,
   .botao-escolher-fase,
   .botao-escolher-fase2 {
     width: 90%;
-    max-width: 320px;
+  }
+
+  .texto-sobre,
+  .texto-sobre1,
+  .texto-sobre2,
+  .texto-sobre3,
+  .texto-sobre4 {
+    font-size: 14px;
+    top: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    margin: 10px 0;
   }
 
   .top-bar {
@@ -403,7 +317,7 @@ body {
   }
 
   .icon {
-    width: 80px;
+    width: 100px;
   }
 
   .menu {
@@ -413,35 +327,24 @@ body {
 
   .menu a {
     padding: 10px;
-    font-size: 14px;
   }
 }
 
 
 @media (max-width: 480px) {
-  .texto-sobre,
-  .texto-sobre1,
-  .texto-sobre2,
-  .texto-sobre3,
-  .texto-sobre4 {
-    font-size: 12px;
+  .title {
+    width: 100%;
+    transform: scale(0.9);
   }
 
   .botao-tutorial {
     width: 100px;
   }
 
-  .title {
-    transform: scale(0.9);
+  .texto-sobre2,
+  .texto-sobre3,
+  .texto-sobre4 {
+    font-size: 18px;
   }
 }
 
-
-.texto-sobre:hover,
-.texto-sobre1:hover,
-.texto-sobre2:hover,
-.texto-sobre3:hover,
-.texto-sobre4:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
-}
