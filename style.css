@@ -268,10 +268,11 @@ main {
 }
 @media only screen and (max-width: 768px) {
   .botao-tutorial, .title, .botao-iniciar {
-    width: 300%;
+    width: 90%;
     height: auto;
   }
 }
+
 
 
 
