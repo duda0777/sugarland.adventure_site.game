@@ -145,27 +145,11 @@ body {
   transform: scale(0.1);
 }
   
-  .texto-sobre2 {
-    position: fixed;
-    top: 28%; 
-    left: 28.5%; 
-    transform: translate(-50%, -50%); 
-    color: white; 
-    font-size: 27.4px;
-    font-weight: bold;
-    text-shadow: 4px 4px 4px rgba(47, 3, 65, 0.7); 
-    z-index: 1; 
-     cursor: pointer;
-    transition: transform 15.0s ease;
-}
-.texto-sobre2:hover {
-  transform: scale(0.1);
-}
   
  .texto-sobre3 {
     position: fixed;
-    top: 28.5%; 
-    left: 73.8%; 
+    top: 38.5%; 
+    left: 77.8%; 
     transform: translate(-50%, -50%); 
     color: white; 
     font-size: 27.4px;
@@ -178,23 +162,7 @@ body {
 .texto-sobre3:hover {
   transform: scale(0.1);
 }
-.texto-sobre4 {
-    position: fixed;
-    top: 77.6%; 
-    left: 50.5%; 
-    transform: translate(-50%, -50%); 
-    color: white; 
-    font-size: 27.4px;
-    font-weight: bold;
-    text-shadow: 4px 4px 4px rgba(85, 4, 48, 0.7); 
-    z-index: 1; 
-     cursor: pointer;
-    transition: transform 15.0s ease;
-}
-.texto-sobre4:hover {
-  transform: scale(0.1);
-}
-  
+
  
 .title-container {
    position: fixed;
@@ -323,6 +291,7 @@ main {
   max-width: 800px;
   margin: 0 auto;
 }
+
 
 
 
