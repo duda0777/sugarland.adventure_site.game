@@ -6,12 +6,12 @@
     <title>Sobre o Jogo - Doce Aventura</title>
     <style>
         body {
-            background-color:rgba(243, 161, 231, 0.949);
+            background-color: rgba(243, 161, 231, 0.949);
             font-family: Arial, sans-serif;
         }
 
         header {
-            background-color:  #e979e4;
+            background-color: #e979e4;
             padding: 20px;
             text-align: center;
         }
@@ -35,6 +35,7 @@
             border: 1px solid rgba(243, 161, 231, 0.949);
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
         }
 
         h2 {
@@ -59,23 +60,47 @@
         }
 
         footer {
-            background-color:#e879d9;
+            background-color: #e879d9;
             padding: 10px;
             text-align: center;
             color: #FFFFFF; 
         }
 
         .botao {
-            background-color:#e879d9;
+            background-color: #e879d9;
             color: #FFFFFF; 
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            font-size: 16px;
         }
 
         .botao:hover {
-            background-color:rgba(243, 161, 231, 0.949);
+            background-color: rgba(243, 161, 231, 0.949);
+        }
+
+        /* --- estilo para centralizar o GIF --- */
+        .gif-container {
+            text-align:left;
+            margin-top: 20px;
+        }
+ .gif-contain {
+            text-align:left;
+            margin-top: 20px;
+              width: 300px;
+        }
+        .gif-contain img {
+            text-align:left;
+            margin-top: 20px;
+              width: 200px;
+        }
+
+
+        .gif-container img {
+            width: 300px; /* ajuste o tamanho conforme desejar */
+            border-radius: 10px;
+            text-align: left;
         }
     </style>
 </head>
@@ -92,50 +117,53 @@
             <p>A nossa ideia central foi, ser algo intuitivo, educativo e que se chama a atenção, do
               nosso público-alvo. Por tanto, dês da música até as contas matemáticas, foram
             pensados em diretamente pensado para um público.</p>
-             Nós decidimos este formato de jogo, no qual seria de plataforma; além de ser um
+            <p>Nós decidimos este formato de jogo, no qual seria de plataforma; além de ser um
              formato mais fácil, também seria mais intuitivo para um público infanto-juvenil.</p>
+
+           
         </section>
-        ,<section>
+
+        <section>
             <h2>História do Jogo</h2>
             <ul>
-              <li>O jogo tem como ponto a personagem principal conseguir chegar ao destino final, enquanto segue por um caminho perigoso. Ela tem o objetivo de tentar se desviar de obstáculos, como inimigos, buracos na plataforma,e espinhos que se cair ou encostar, aparecerá
-              uma conta de matemática que se acertada, ela continua seu caminho, ao contrário perde o jogo e volta para o início de onde veio.</li>
-              <li>Ao chegar no destino final a personagem principal ganha uma bandeira vermelha em sinal de vitória ao concluir o jogo,
-                 e assim finaliza a primeira fase e passa para a proxíma ainda mais desafiadora, com inimigos mais fortes, obstáculos mais difíceis e contas 
-                 de matemática mais complexas<li>
-        
+                <li>O jogo tem como ponto a personagem principal conseguir chegar ao destino final, enquanto segue por um caminho perigoso. Ela tem o objetivo de tentar se desviar de obstáculos, como inimigos, buracos na plataforma, e espinhos que se cair ou encostar, aparecerá uma conta de matemática que se acertada, ela continua seu caminho, ao contrário perde o jogo e volta para o início de onde veio.</li>
+                <li>Ao chegar no destino final a personagem principal ganha uma bandeira vermelha em sinal de vitória ao concluir o jogo, e assim finaliza a primeira fase e passa para a próxima ainda mais desafiadora, com inimigos mais fortes, obstáculos mais difíceis e contas de matemática mais complexas.</li>
             </ul>
         </section>
+
         <section>
             <h2>Objetivo do Jogo</h2>
             <ul>
-
-                <li>O Sugarland Adventure tem como objetivo preparar o usuário, e reforçar a mente
-                 dele para o futuro. As contas carregam está missão, a matéria que escolhemos
-                 acompanha a faixa etária que demos como o objetivo do nosso jogo. O
-                 acompanha.</li>
-                
+                <li>O Sugarland Adventure tem como objetivo preparar o usuário, e reforçar a mente dele para o futuro. As contas carregam esta missão, a matéria que escolhemos acompanha a faixa etária que demos como o objetivo do nosso jogo.</li>
             </ul>
         </section>
-        <section>
+ <section>
             <h2>sprites</h2>
             <ul>
                 <li>  <div class="gif-container">
-                <img src="sugarland-adventure/slimeatack.gif" alt="Animação do jogo">
-                <img src="sugarland-adventure/defrente.gif" alt="Animação do jogo">
+                <img src="slimeatack.gif" alt="Animação do jogo">
+                <img src="defrente.gif" alt="Animação do jogo">
             </div>.</li>
                 
 
                   <div class="gif-contain">
-                <img src="sugarland-adventure/principal1.gif" alt="Animação do jogo">
-                <img src="sugarland-adventure/principalesquerda.gif" alt="Animação do jogo">
-                <img src="sugarland-adventure/principalrundireita.gif" alt="Animação do jogo">
+                <img src="principal1.gif" alt="Animação do jogo">
+                <img src="principalesquerda.gif" alt="Animação do jogo">
+                <img src="principalrundireita.gif" alt="Animação do jogo">
             </div>.
 
 
         </section>
 
-       
+
+        <section>
+            <h2>Código do Jogo</h2>
+            <ul>
+                <li>Aqui no <a href="https://github.com/ingrydvenancio/codigo_oPlayer-.git">link para GitHub</a> podemos visualizar o código.</li>
+            </ul>
+        </section>
+
+
         <button class="botao" onclick="window.location.href='index.html'">Voltar à Página Inicial</button>
     </main>
     <footer>
@@ -143,5 +171,3 @@
     </footer>
 </body>
 </html>
-
-
