@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial -Sugarland Adventure</title>
+    <style>
+        body {
+            background-color:  rgba(243, 161, 231, 0.949);
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #e879d9;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color:  #FFFFFF;
+            font-size: 36px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        section {
+            background-color: #FFFFFF; 
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid  rgba(243, 161, 231, 0.949);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #e879d9;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #e879d9;
+            padding: 10px;
+            text-align: center;
+            color: #FFFFFF; 
+        }
+
+        .botao {
+            background-color: #e879d9;
+            color: #FFFFFF; 
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .botao:hover {
+            background-color:  rgba(243, 161, 231, 0.949);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tutorial</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Vídeo Tutorial</h2>
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                Seu navegador não suporta o vídeo.
+            </video>
+        </section>
+        <section>
+            <h2>Fases do Jogo</h2>
+            <img src="fase1.png" alt="Fase 1">
+            <p>Fase 1: Movimentação</p>
+            <p>Objetivo: Andar até a bandeira</p>
+            <img src="fase2.png" alt="Fase 2">
+            <p>Fase 2: Pular</p>
+            <p>Objetivo: Andar até a bandeira, desviar do obstáculo e coletar a moeda</p>
+            <img src="fase3.png" alt="Fase 3">
+            <p>Fase 3: Coletar Doces</p>
+            <p>Objetivo: Andar até a bandeira, desviar do obstáculo e coletar a moeda</p>
+        </section>
+        <button class="botao" onclick="window.location.href='index.html'">Voltar à Página Inicial</button>
+    </main>
+    <footer>
+        <p>&copy; 2025 Sugarland venture. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
