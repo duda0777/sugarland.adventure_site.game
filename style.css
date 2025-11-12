@@ -266,19 +266,53 @@ main {
   max-width: 800px;
   margin: 0 auto;
 }
-@media only screen and (max-width: 1500px) {
-  .botao-tutorial, .title, .botao-iniciar {
-    width: 180%;
-    height: auto;
+
+@media (max-width: 480px) {
+  .botao-tutorial {
+    width: 100px;
+  }
+
+  .texto-sobre3 {
+    font-size: 24px;
+  }
+
+  .botao-iniciar {
+    width: 280px;
+    height: 120px;
   }
 }
 
 
+@media (max-width: 768px) {
+  .botao-tutorial {
+    width: 120px;
+  }
+
+  .texto-sobre3 {
+    font-size: 30px;
+  }
+
+  .botao-iniciar {
+    width: 360px;
+    height: 140px;
+  }
+}
 
 
+@media (min-width: 769px) {
+  .botao-tutorial {
+    width: 150px;
+  }
 
+  .texto-sobre3 {
+    font-size: 37.4px;
+  }
 
-
+  .botao-iniciar {
+    width: 440px;
+    height: 175px;
+  }
+}
 
 
 
