@@ -270,6 +270,14 @@ main {
 @media (max-width: 480px) {
   .botao-tutorial {
     width: 100px;
+     position: fixed;
+  top: 65.5px;
+  left: 11%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 40px;
+  z-index: 10;
   }
 
   .texto-sobre3 {
@@ -286,6 +294,14 @@ main {
 @media (max-width: 768px) {
   .botao-tutorial {
     width: 120px;
+     position: fixed;
+  top: 65.5px;
+  left: 11%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 40px;
+  z-index: 10;
   }
 
   .texto-sobre3 {
@@ -302,9 +318,18 @@ main {
 @media (min-width: 769px) {
   .botao-tutorial {
     width: 150px;
+     position: fixed;
+  top: 65.5px;
+  left: 11%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 40px;
+  z-index: 10;
   }
 
   .texto-sobre3 {
+    
     font-size: 37.4px;
   }
 
@@ -313,6 +338,7 @@ main {
     height: 175px;
   }
 }
+
 
 
 
